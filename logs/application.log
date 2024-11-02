@@ -1,2 +1,16 @@
 I, [2024-11-02T14:50:33.139619 #66487]  INFO -- : Application started
 I, [2024-11-02T14:50:33.140310 #66487]  INFO -- : Application started
+I, [2024-11-02T14:53:51.365972 #38804]  INFO -- : Application started
+I, [2024-11-02T14:53:51.370391 #38804]  INFO -- : Application started
+I, [2024-11-02T15:08:33.883765 #8048]  INFO -- : Application started
+I, [2024-11-02T15:08:36.163831 #8048]  INFO -- : Ініціалізовано об'єкт RentalItem з адресою 257 Gregorio Lodge, West Danika, WI 61824
+I, [2024-11-02T15:08:36.164169 #8048]  INFO -- : Створено об'єкт RentalItem: Оренда: Ціна: 12192 грн, Адреса: 257 Gregorio Lodge, West Danika, WI 61824, Площа: 84 м², Кімнат: 2, Зображення: images/ut.jpg
+I, [2024-11-02T15:08:36.168545 #8048]  INFO -- : Application started
+I, [2024-11-02T15:08:36.171354 #8048]  INFO -- : Ініціалізовано об'єкт RentalItem з адресою Apt. 769 39884 Corwin View, Darenton, IN 30826
+I, [2024-11-02T15:08:36.171572 #8048]  INFO -- : Створено об'єкт RentalItem: Оренда: Ціна: 11329 грн, Адреса: Apt. 769 39884 Corwin View, Darenton, IN 30826, Площа: 195 м², Кімнат: 4, Зображення: images/quod.jpg
+I, [2024-11-02T15:12:33.023009 #33240]  INFO -- : Application started
+I, [2024-11-02T15:12:34.536354 #33240]  INFO -- : Ініціалізовано об'єкт RentalItem з адресою Apt. 430 845 Travis Well, North Melia, CT 16468
+I, [2024-11-02T15:12:34.536761 #33240]  INFO -- : Створено об'єкт RentalItem: Оренда: Ціна: 9731 грн, Адреса: Apt. 430 845 Travis Well, North Melia, CT 16468, Площа: 150 м², Кімнат: 5, Зображення: images/eius.jpg
+I, [2024-11-02T15:12:34.541238 #33240]  INFO -- : Application started
+I, [2024-11-02T15:12:34.545656 #33240]  INFO -- : Ініціалізовано об'єкт RentalItem з адресою 3452 Arlen Lights, South Robbyhaven, AK 12363-1103
+I, [2024-11-02T15:12:34.545939 #33240]  INFO -- : Створено об'єкт RentalItem: Оренда: Ціна: 11053 грн, Адреса: 3452 Arlen Lights, South Robbyhaven, AK 12363-1103, Площа: 38 м², Кімнат: 2, Зображення: images/voluptas.jpg

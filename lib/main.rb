@@ -1,6 +1,8 @@
 module DomRiaParserGrigoriakMelenkoMorar
+  require 'faker'
   require_relative './app_config_loader'
   require_relative './logger_manager'
+  require_relative './rental_item'
 
   class Runner
     def self.run
@@ -14,6 +16,10 @@ module DomRiaParserGrigoriakMelenkoMorar
       LoggerManager.log_processed_file("Application started")
 
       puts "Configuration loaded: #{JSON.pretty_generate(config_data)}"
+
+      rental_item = RentalItem.generate_fake
+      LoggerManager.log_processed_file("Створено об'єкт RentalItem: #{rental_item.info}")
+      puts rental_item.info
     end
   end
 end

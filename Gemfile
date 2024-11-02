@@ -8,3 +8,4 @@ gem 'rubocop', require: false
 gem 'yaml'
 gem 'erb'
 gem 'json'
+gem 'faker'
