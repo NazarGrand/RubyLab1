@@ -2,6 +2,9 @@ GEM
   remote: https://rubygems.org/
   specs:
     ast (2.4.2)
+    cgi (0.4.1)
+    erb (4.0.3)
+      cgi (>= 0.3.3)
     json (2.7.5)
     language_server-protocol (3.17.0.3)
     nokogiri (1.16.7-arm64-darwin)
@@ -29,14 +32,18 @@ GEM
       parser (>= 3.3.1.0)
     ruby-progressbar (1.13.0)
     unicode-display_width (2.6.0)
+    yaml (0.3.0)
 
 PLATFORMS
   arm64-darwin-23
   x64-mingw-ucrt
 
 DEPENDENCIES
+  erb
+  json
   nokogiri
   rubocop
+  yaml
 
 BUNDLED WITH
    2.5.16
