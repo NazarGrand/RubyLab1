@@ -13,7 +13,8 @@ module DomRiaParserGrigoriakMelenkoMorar
   
         config_data = app_config_loader.config('config/default_config.yaml', 'config')
         logging_config = config_data['logging']
-  
+        webparsing_config = config_data['web_scraping']
+       
         LoggerManager.init_logger(logging_config)
         LoggerManager.log_processed_file("Application started")
   
