@@ -14,3 +14,119 @@ I, [2024-11-02T15:12:34.536761 #33240]  INFO -- : Створено об'єкт R
 I, [2024-11-02T15:12:34.541238 #33240]  INFO -- : Application started
 I, [2024-11-02T15:12:34.545656 #33240]  INFO -- : Ініціалізовано об'єкт RentalItem з адресою 3452 Arlen Lights, South Robbyhaven, AK 12363-1103
 I, [2024-11-02T15:12:34.545939 #33240]  INFO -- : Створено об'єкт RentalItem: Оренда: Ціна: 11053 грн, Адреса: 3452 Arlen Lights, South Robbyhaven, AK 12363-1103, Площа: 38 м², Кімнат: 2, Зображення: images/voluptas.jpg
+I, [2024-11-02T15:27:52.202658 #44172]  INFO -- : Application started
+I, [2024-11-02T15:27:55.391370 #44172]  INFO -- : Ініціалізовано об'єкт RentalItem з адресою Apt. 591 11342 Lockman Parks, New Lakenyaside, MT 16846-1749
+I, [2024-11-02T15:27:55.391923 #44172]  INFO -- : Створено об'єкт RentalItem: Оренда: Ціна: 18424 грн, Адреса: Apt. 591 11342 Lockman Parks, New Lakenyaside, MT 16846-1749, Площа: 116 м², Кімнат: 1, Зображення: images/et.jpg
+I, [2024-11-02T15:27:55.393725 #44172]  INFO -- : Initialized Cart instance
+I, [2024-11-02T15:27:55.395095 #44172]  INFO -- : Ініціалізовано об'єкт RentalItem з адресою Suite 674 491 Feeney Underpass, Watersburgh, TN 72467
+I, [2024-11-02T15:27:55.395483 #44172]  INFO -- : Added item: Оренда: Ціна: 17946 грн, Адреса: Suite 674 491 Feeney Underpass, Watersburgh, TN 72467, Площа: 101 м², Кімнат: 1, Зображення: images/ratione.jpg
+I, [2024-11-02T15:27:55.397193 #44172]  INFO -- : Ініціалізовано об'єкт RentalItem з адресою 29197 Chelsea Station, East Scottland, WA 48892
+I, [2024-11-02T15:27:55.397682 #44172]  INFO -- : Added item: Оренда: Ціна: 5635 грн, Адреса: 29197 Chelsea Station, East Scottland, WA 48892, Площа: 162 м², Кімнат: 5, Зображення: images/eligendi.jpg
+I, [2024-11-02T15:27:55.398946 #44172]  INFO -- : Ініціалізовано об'єкт RentalItem з адресою 55919 Russel Harbors, Coltonside, NE 05570
+I, [2024-11-02T15:27:55.399498 #44172]  INFO -- : Added item: Оренда: Ціна: 15981 грн, Адреса: 55919 Russel Harbors, Coltonside, NE 05570, Площа: 157 м², Кімнат: 3, Зображення: images/expedita.jpg
+I, [2024-11-02T15:27:55.402059 #44172]  INFO -- : Ініціалізовано об'єкт RentalItem з адресою Apt. 962 279 Jalisa Ports, Keelingtown, IL 43379-4117
+I, [2024-11-02T15:27:55.402566 #44172]  INFO -- : Added item: Оренда: Ціна: 11148 грн, Адреса: Apt. 962 279 Jalisa Ports, Keelingtown, IL 43379-4117, Площа: 127 м², Кімнат: 5, Зображення: images/a.jpg
+I, [2024-11-02T15:27:55.405278 #44172]  INFO -- : Ініціалізовано об'єкт RentalItem з адресою Apt. 208 3433 Fermin Lake, North Santana, UT 16814
+I, [2024-11-02T15:27:55.405597 #44172]  INFO -- : Added item: Оренда: Ціна: 14537 грн, Адреса: Apt. 208 3433 Fermin Lake, North Santana, UT 16814, Площа: 123 м², Кімнат: 4, Зображення: images/in.jpg
+I, [2024-11-02T15:27:55.407280 #44172]  INFO -- : Ініціалізовано об'єкт RentalItem з адресою Suite 476 189 Amos Union, South Tracibury, KY 80089
+I, [2024-11-02T15:27:55.407688 #44172]  INFO -- : Added item: Оренда: Ціна: 12163 грн, Адреса: Suite 476 189 Amos Union, South Tracibury, KY 80089, Площа: 180 м², Кімнат: 3, Зображення: images/omnis.jpg
+I, [2024-11-02T15:27:55.409093 #44172]  INFO -- : Ініціалізовано об'єкт RentalItem з адресою 4346 Allen Locks, Lake Lillieside, PA 36307
+I, [2024-11-02T15:27:55.409400 #44172]  INFO -- : Added item: Оренда: Ціна: 19084 грн, Адреса: 4346 Allen Locks, Lake Lillieside, PA 36307, Площа: 141 м², Кімнат: 4, Зображення: images/accusantium.jpg
+I, [2024-11-02T15:27:55.410917 #44172]  INFO -- : Ініціалізовано об'єкт RentalItem з адресою 987 Feest Course, Connport, AK 98122
+I, [2024-11-02T15:27:55.411943 #44172]  INFO -- : Added item: Оренда: Ціна: 10713 грн, Адреса: 987 Feest Course, Connport, AK 98122, Площа: 198 м², Кімнат: 3, Зображення: images/deleniti.jpg
+I, [2024-11-02T15:27:55.414285 #44172]  INFO -- : Ініціалізовано об'єкт RentalItem з адресою Apt. 483 5362 Faustina Forge, Chaubury, GA 66916-2076
+I, [2024-11-02T15:27:55.414812 #44172]  INFO -- : Added item: Оренда: Ціна: 13821 грн, Адреса: Apt. 483 5362 Faustina Forge, Chaubury, GA 66916-2076, Площа: 100 м², Кімнат: 4, Зображення: images/cum.jpg
+I, [2024-11-02T15:27:55.416591 #44172]  INFO -- : Ініціалізовано об'єкт RentalItem з адресою 8775 Koepp Inlet, Mattiefort, OH 45525-7805
+I, [2024-11-02T15:27:55.416996 #44172]  INFO -- : Added item: Оренда: Ціна: 12656 грн, Адреса: 8775 Koepp Inlet, Mattiefort, OH 45525-7805, Площа: 101 м², Кімнат: 3, Зображення: images/ex.jpg
+I, [2024-11-02T15:27:55.417318 #44172]  INFO -- : Generated 10 test items
+I, [2024-11-02T15:27:55.441616 #44172]  INFO -- : Saved items to items.txt
+I, [2024-11-02T15:27:55.443100 #44172]  INFO -- : Saved items to items.json
+I, [2024-11-02T15:27:55.444333 #44172]  INFO -- : Saved items to items.csv
+I, [2024-11-02T15:27:55.459181 #44172]  INFO -- : Saved items to items_yml as YAML files
+I, [2024-11-02T15:27:55.478831 #44172]  INFO -- : Application started
+I, [2024-11-02T15:27:55.487350 #44172]  INFO -- : Ініціалізовано об'єкт RentalItem з адресою Apt. 767 883 Shanell Prairie, Beerstad, MI 54642-6853
+I, [2024-11-02T15:27:55.487621 #44172]  INFO -- : Створено об'єкт RentalItem: Оренда: Ціна: 9062 грн, Адреса: Apt. 767 883 Shanell Prairie, Beerstad, MI 54642-6853, Площа: 98 м², Кімнат: 2, Зображення: images/quia.jpg
+I, [2024-11-02T15:27:55.489159 #44172]  INFO -- : Initialized Cart instance
+I, [2024-11-02T15:27:55.492236 #44172]  INFO -- : Ініціалізовано об'єкт RentalItem з адресою 99304 McKenzie Loaf, Port Markusmouth, ND 96535
+I, [2024-11-02T15:27:55.492708 #44172]  INFO -- : Added item: Оренда: Ціна: 5053 грн, Адреса: 99304 McKenzie Loaf, Port Markusmouth, ND 96535, Площа: 57 м², Кімнат: 5, Зображення: images/modi.jpg
+I, [2024-11-02T15:27:55.497071 #44172]  INFO -- : Ініціалізовано об'єкт RentalItem з адресою Suite 326 52398 Shala Village, Woodrowview, WV 98731-9266
+I, [2024-11-02T15:27:55.500231 #44172]  INFO -- : Added item: Оренда: Ціна: 15656 грн, Адреса: Suite 326 52398 Shala Village, Woodrowview, WV 98731-9266, Площа: 70 м², Кімнат: 3, Зображення: images/ut.jpg
+I, [2024-11-02T15:27:55.502674 #44172]  INFO -- : Ініціалізовано об'єкт RentalItem з адресою Suite 760 462 Lynch Ports, Mertzchester, WI 65563-8227
+I, [2024-11-02T15:27:55.502942 #44172]  INFO -- : Added item: Оренда: Ціна: 5381 грн, Адреса: Suite 760 462 Lynch Ports, Mertzchester, WI 65563-8227, Площа: 147 м², Кімнат: 5, Зображення: images/nostrum.jpg
+I, [2024-11-02T15:27:55.505075 #44172]  INFO -- : Ініціалізовано об'єкт RentalItem з адресою 299 Sixta Vista, Manuelton, CA 30812
+I, [2024-11-02T15:27:55.505403 #44172]  INFO -- : Added item: Оренда: Ціна: 12375 грн, Адреса: 299 Sixta Vista, Manuelton, CA 30812, Площа: 130 м², Кімнат: 4, Зображення: images/molestiae.jpg
+I, [2024-11-02T15:27:55.507227 #44172]  INFO -- : Ініціалізовано об'єкт RentalItem з адресою Suite 706 570 Rath Cape, West Lillistad, WV 06819-5592
+I, [2024-11-02T15:27:55.507550 #44172]  INFO -- : Added item: Оренда: Ціна: 13417 грн, Адреса: Suite 706 570 Rath Cape, West Lillistad, WV 06819-5592, Площа: 78 м², Кімнат: 1, Зображення: images/magnam.jpg
+I, [2024-11-02T15:27:55.510621 #44172]  INFO -- : Ініціалізовано об'єкт RentalItem з адресою Apt. 654 24499 Kerluke Point, Lake Ambrose, IL 38262
+I, [2024-11-02T15:27:55.510900 #44172]  INFO -- : Added item: Оренда: Ціна: 5938 грн, Адреса: Apt. 654 24499 Kerluke Point, Lake Ambrose, IL 38262, Площа: 30 м², Кімнат: 4, Зображення: images/voluptates.jpg
+I, [2024-11-02T15:27:55.512836 #44172]  INFO -- : Ініціалізовано об'єкт RentalItem з адресою Suite 333 78289 Wilkinson Summit, South Un, HI 43359-9378
+I, [2024-11-02T15:27:55.513169 #44172]  INFO -- : Added item: Оренда: Ціна: 18620 грн, Адреса: Suite 333 78289 Wilkinson Summit, South Un, HI 43359-9378, Площа: 62 м², Кімнат: 5, Зображення: images/sapiente.jpg
+I, [2024-11-02T15:27:55.514871 #44172]  INFO -- : Ініціалізовано об'єкт RentalItem з адресою Apt. 118 42933 Bong Fork, North Jeffery, NH 72226-0015
+I, [2024-11-02T15:27:55.515173 #44172]  INFO -- : Added item: Оренда: Ціна: 17133 грн, Адреса: Apt. 118 42933 Bong Fork, North Jeffery, NH 72226-0015, Площа: 185 м², Кімнат: 3, Зображення: images/id.jpg
+I, [2024-11-02T15:27:55.517724 #44172]  INFO -- : Ініціалізовано об'єкт RentalItem з адресою 2006 Benedict Motorway, New Benitoside, AZ 82556-0639
+I, [2024-11-02T15:27:55.518115 #44172]  INFO -- : Added item: Оренда: Ціна: 19001 грн, Адреса: 2006 Benedict Motorway, New Benitoside, AZ 82556-0639, Площа: 175 м², Кімнат: 1, Зображення: images/earum.jpg
+I, [2024-11-02T15:27:55.520215 #44172]  INFO -- : Ініціалізовано об'єкт RentalItem з адресою Apt. 252 5585 Schroeder Manors, South Maryalice, IA 50524-6637
+I, [2024-11-02T15:27:55.520606 #44172]  INFO -- : Added item: Оренда: Ціна: 5286 грн, Адреса: Apt. 252 5585 Schroeder Manors, South Maryalice, IA 50524-6637, Площа: 80 м², Кімнат: 1, Зображення: images/quod.jpg
+I, [2024-11-02T15:27:55.520866 #44172]  INFO -- : Generated 10 test items
+I, [2024-11-02T15:27:55.541914 #44172]  INFO -- : Saved items to items.txt
+I, [2024-11-02T15:27:55.542748 #44172]  INFO -- : Saved items to items.json
+I, [2024-11-02T15:27:55.543990 #44172]  INFO -- : Saved items to items.csv
+I, [2024-11-02T15:27:55.557515 #44172]  INFO -- : Saved items to items_yml as YAML files
+I, [2024-11-02T15:34:29.150557 #33304]  INFO -- : Application started
+I, [2024-11-02T15:34:30.910221 #33304]  INFO -- : Ініціалізовано об'єкт RentalItem з адресою 26697 Antony Shoals, East Josie, WI 16359
+I, [2024-11-02T15:34:30.910532 #33304]  INFO -- : Створено об'єкт RentalItem: Оренда: Ціна: 10783 грн, Адреса: 26697 Antony Shoals, East Josie, WI 16359, Площа: 142 м², Кімнат: 5, Зображення: images/officiis.jpg
+I, [2024-11-02T15:34:30.911947 #33304]  INFO -- : Initialized Cart instance with output directory: output
+I, [2024-11-02T15:34:30.913008 #33304]  INFO -- : Ініціалізовано об'єкт RentalItem з адресою 699 Lauretta Mount, Hollisbury, AK 31516-0804
+I, [2024-11-02T15:34:30.913329 #33304]  INFO -- : Added item: Оренда: Ціна: 17125 грн, Адреса: 699 Lauretta Mount, Hollisbury, AK 31516-0804, Площа: 177 м², Кімнат: 2, Зображення: images/omnis.jpg
+I, [2024-11-02T15:34:30.914292 #33304]  INFO -- : Ініціалізовано об'єкт RentalItem з адресою 267 Alva Cliffs, East Cindi, MS 58753-2311
+I, [2024-11-02T15:34:30.914654 #33304]  INFO -- : Added item: Оренда: Ціна: 6048 грн, Адреса: 267 Alva Cliffs, East Cindi, MS 58753-2311, Площа: 50 м², Кімнат: 5, Зображення: images/laborum.jpg
+I, [2024-11-02T15:34:30.915562 #33304]  INFO -- : Ініціалізовано об'єкт RentalItem з адресою 853 Parisian Circle, South Zora, HI 59134-7383
+I, [2024-11-02T15:34:30.915829 #33304]  INFO -- : Added item: Оренда: Ціна: 17014 грн, Адреса: 853 Parisian Circle, South Zora, HI 59134-7383, Площа: 114 м², Кімнат: 1, Зображення: images/ex.jpg
+I, [2024-11-02T15:34:30.916738 #33304]  INFO -- : Ініціалізовано об'єкт RentalItem з адресою 136 Rutherford Springs, New Xiao, VT 38383-2600
+I, [2024-11-02T15:34:30.916990 #33304]  INFO -- : Added item: Оренда: Ціна: 14817 грн, Адреса: 136 Rutherford Springs, New Xiao, VT 38383-2600, Площа: 38 м², Кімнат: 1, Зображення: images/non.jpg
+I, [2024-11-02T15:34:30.917955 #33304]  INFO -- : Ініціалізовано об'єкт RentalItem з адресою Apt. 473 8824 Rudolph Creek, Sterlingbury, ND 06465-3229
+I, [2024-11-02T15:34:30.918241 #33304]  INFO -- : Added item: Оренда: Ціна: 11503 грн, Адреса: Apt. 473 8824 Rudolph Creek, Sterlingbury, ND 06465-3229, Площа: 189 м², Кімнат: 5, Зображення: images/quod.jpg
+I, [2024-11-02T15:34:30.918993 #33304]  INFO -- : Ініціалізовано об'єкт RentalItem з адресою 8111 Haley Parkways, East Marianoshire, VT 04825
+I, [2024-11-02T15:34:30.919199 #33304]  INFO -- : Added item: Оренда: Ціна: 17586 грн, Адреса: 8111 Haley Parkways, East Marianoshire, VT 04825, Площа: 46 м², Кімнат: 4, Зображення: images/nihil.jpg
+I, [2024-11-02T15:34:30.919969 #33304]  INFO -- : Ініціалізовано об'єкт RentalItem з адресою Suite 324 881 Emmanuel Way, New Man, MS 94076-1419
+I, [2024-11-02T15:34:30.920173 #33304]  INFO -- : Added item: Оренда: Ціна: 14084 грн, Адреса: Suite 324 881 Emmanuel Way, New Man, MS 94076-1419, Площа: 154 м², Кімнат: 2, Зображення: images/dignissimos.jpg
+I, [2024-11-02T15:34:30.921061 #33304]  INFO -- : Ініціалізовано об'єкт RentalItem з адресою Suite 948 864 MacGyver Parkway, North Markberg, CA 00337-5594
+I, [2024-11-02T15:34:30.921245 #33304]  INFO -- : Added item: Оренда: Ціна: 9931 грн, Адреса: Suite 948 864 MacGyver Parkway, North Markberg, CA 00337-5594, Площа: 79 м², Кімнат: 1, Зображення: images/nemo.jpg
+I, [2024-11-02T15:34:30.922971 #33304]  INFO -- : Ініціалізовано об'єкт RentalItem з адресою 73877 Cindi Corner, West Delenaview, NJ 78774-7163
+I, [2024-11-02T15:34:30.923352 #33304]  INFO -- : Added item: Оренда: Ціна: 17753 грн, Адреса: 73877 Cindi Corner, West Delenaview, NJ 78774-7163, Площа: 137 м², Кімнат: 4, Зображення: images/velit.jpg
+I, [2024-11-02T15:34:30.924464 #33304]  INFO -- : Ініціалізовано об'єкт RentalItem з адресою Suite 714 373 D'Amore Run, South Lupeville, AZ 22244-7286
+I, [2024-11-02T15:34:30.924904 #33304]  INFO -- : Added item: Оренда: Ціна: 11232 грн, Адреса: Suite 714 373 D'Amore Run, South Lupeville, AZ 22244-7286, Площа: 34 м², Кімнат: 5, Зображення: images/ducimus.jpg
+I, [2024-11-02T15:34:30.925175 #33304]  INFO -- : Generated 10 test items
+I, [2024-11-02T15:34:30.947831 #33304]  INFO -- : Saved items to output/items.txt
+I, [2024-11-02T15:34:30.948774 #33304]  INFO -- : Saved items to output/items.json
+I, [2024-11-02T15:34:30.950758 #33304]  INFO -- : Saved items to output/items.csv
+I, [2024-11-02T15:34:30.973828 #33304]  INFO -- : Saved items to output/items_yml as YAML files
+I, [2024-11-02T15:34:30.983861 #33304]  INFO -- : Application started
+I, [2024-11-02T15:34:30.997276 #33304]  INFO -- : Ініціалізовано об'єкт RentalItem з адресою 7843 Reyes Center, North Scottyfurt, NV 57812-6449
+I, [2024-11-02T15:34:31.018051 #33304]  INFO -- : Створено об'єкт RentalItem: Оренда: Ціна: 11840 грн, Адреса: 7843 Reyes Center, North Scottyfurt, NV 57812-6449, Площа: 129 м², Кімнат: 2, Зображення: images/est.jpg
+I, [2024-11-02T15:34:31.023407 #33304]  INFO -- : Initialized Cart instance with output directory: output
+I, [2024-11-02T15:34:31.028667 #33304]  INFO -- : Ініціалізовано об'єкт RentalItem з адресою 6324 VonRueden Cape, Labadiefurt, ND 90371-1530
+I, [2024-11-02T15:34:31.029130 #33304]  INFO -- : Added item: Оренда: Ціна: 17044 грн, Адреса: 6324 VonRueden Cape, Labadiefurt, ND 90371-1530, Площа: 197 м², Кімнат: 5, Зображення: images/et.jpg
+I, [2024-11-02T15:34:31.032154 #33304]  INFO -- : Ініціалізовано об'єкт RentalItem з адресою 41141 Carroll Rapids, Port Bruno, AR 04723-9894
+I, [2024-11-02T15:34:31.032505 #33304]  INFO -- : Added item: Оренда: Ціна: 18783 грн, Адреса: 41141 Carroll Rapids, Port Bruno, AR 04723-9894, Площа: 146 м², Кімнат: 5, Зображення: images/est.jpg
+I, [2024-11-02T15:34:31.034341 #33304]  INFO -- : Ініціалізовано об'єкт RentalItem з адресою 7819 Bednar Alley, North Kendall, SD 63682-9310
+I, [2024-11-02T15:34:31.034694 #33304]  INFO -- : Added item: Оренда: Ціна: 7267 грн, Адреса: 7819 Bednar Alley, North Kendall, SD 63682-9310, Площа: 154 м², Кімнат: 4, Зображення: images/et.jpg
+I, [2024-11-02T15:34:31.037946 #33304]  INFO -- : Ініціалізовано об'єкт RentalItem з адресою 45103 Rita Harbors, Lake Treva, RI 23370
+I, [2024-11-02T15:34:31.038388 #33304]  INFO -- : Added item: Оренда: Ціна: 18428 грн, Адреса: 45103 Rita Harbors, Lake Treva, RI 23370, Площа: 195 м², Кімнат: 3, Зображення: images/nihil.jpg
+I, [2024-11-02T15:34:31.041202 #33304]  INFO -- : Ініціалізовано об'єкт RentalItem з адресою 22027 Stiedemann Port, Wuckertburgh, CT 35233
+I, [2024-11-02T15:34:31.041942 #33304]  INFO -- : Added item: Оренда: Ціна: 13319 грн, Адреса: 22027 Stiedemann Port, Wuckertburgh, CT 35233, Площа: 137 м², Кімнат: 2, Зображення: images/aut.jpg
+I, [2024-11-02T15:34:31.044108 #33304]  INFO -- : Ініціалізовано об'єкт RentalItem з адресою Suite 766 33061 Ankunding Isle, South Ezekiel, WV 89310
+I, [2024-11-02T15:34:31.044677 #33304]  INFO -- : Added item: Оренда: Ціна: 13882 грн, Адреса: Suite 766 33061 Ankunding Isle, South Ezekiel, WV 89310, Площа: 105 м², Кімнат: 5, Зображення: images/dolorum.jpg
+I, [2024-11-02T15:34:31.047384 #33304]  INFO -- : Ініціалізовано об'єкт RentalItem з адресою Suite 426 29461 Danelle Lodge, New Anthonyborough, RI 78643
+I, [2024-11-02T15:34:31.047773 #33304]  INFO -- : Added item: Оренда: Ціна: 19019 грн, Адреса: Suite 426 29461 Danelle Lodge, New Anthonyborough, RI 78643, Площа: 174 м², Кімнат: 1, Зображення: images/et.jpg
+I, [2024-11-02T15:34:31.049125 #33304]  INFO -- : Ініціалізовано об'єкт RentalItem з адресою Apt. 867 14551 Durgan Summit, Eugeneberg, AK 51252-5374
+I, [2024-11-02T15:34:31.049669 #33304]  INFO -- : Added item: Оренда: Ціна: 15362 грн, Адреса: Apt. 867 14551 Durgan Summit, Eugeneberg, AK 51252-5374, Площа: 79 м², Кімнат: 2, Зображення: images/ipsa.jpg
+I, [2024-11-02T15:34:31.051512 #33304]  INFO -- : Ініціалізовано об'єкт RentalItem з адресою 342 Valeria Forks, South Shanell, OK 77213-1122
+I, [2024-11-02T15:34:31.051809 #33304]  INFO -- : Added item: Оренда: Ціна: 17366 грн, Адреса: 342 Valeria Forks, South Shanell, OK 77213-1122, Площа: 174 м², Кімнат: 5, Зображення: images/et.jpg
+I, [2024-11-02T15:34:31.055987 #33304]  INFO -- : Ініціалізовано об'єкт RentalItem з адресою 74025 Lupita Drive, Juliobury, OH 58649-4133
+I, [2024-11-02T15:34:31.056495 #33304]  INFO -- : Added item: Оренда: Ціна: 17353 грн, Адреса: 74025 Lupita Drive, Juliobury, OH 58649-4133, Площа: 57 м², Кімнат: 3, Зображення: images/doloribus.jpg
+I, [2024-11-02T15:34:31.057008 #33304]  INFO -- : Generated 10 test items
+I, [2024-11-02T15:34:31.082368 #33304]  INFO -- : Saved items to output/items.txt
+I, [2024-11-02T15:34:31.083061 #33304]  INFO -- : Saved items to output/items.json
+I, [2024-11-02T15:34:31.084376 #33304]  INFO -- : Saved items to output/items.csv
+I, [2024-11-02T15:34:31.100535 #33304]  INFO -- : Saved items to output/items_yml as YAML files

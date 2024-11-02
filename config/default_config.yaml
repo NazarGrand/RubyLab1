@@ -3,3 +3,4 @@ default:
   config_dir: config
   yaml_dir: config/yaml_config
   media_dir: media
+  output_dir: output
