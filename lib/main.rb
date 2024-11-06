@@ -5,6 +5,7 @@ module DomRiaParserGrigoriakMelenkoMorar
     require_relative './rental_item'
     require_relative './cart'
     require_relative './configurator'
+    require_relative './database_connector'
   
     class Runner
       def self.run
@@ -49,6 +50,15 @@ module DomRiaParserGrigoriakMelenkoMorar
         cart.save_to_file
   
         configurator.run_actions(cart)
+
+      db_connector = DatabaseConnector.new(config_data['mongodb'])
+      db_connector.connect_to_database
+
+      cart.items.each do |item|
+        db_connector.save_rental_item(item)
+      end
+
+      db_connector.close_connection
       end
     end
   end
