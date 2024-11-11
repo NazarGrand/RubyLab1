@@ -53,6 +53,13 @@ class Cart
     LoggerManager.log_processed_file("Saved items to #{dir_path} as YAML files")
   end
 
+  def start_parsing(webparsing_config)
+    parser = SimpleWebsiteParser.new(webparsing_config)
+    items = parser.start_parse
+
+    items.each { |item| add_item(item) }
+  end
+
   def generate_test_items(count = 5)
     count.times { add_item(RentalItem.generate_fake) }
     LoggerManager.log_processed_file("Generated #{count} test items")
