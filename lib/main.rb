@@ -19,9 +19,6 @@ module DomRiaParserGrigoriakMelenkoMorar
         LoggerManager.init_logger(logging_config)
         LoggerManager.log_processed_file("Application started")
 
-        parser = SimpleWebsiteParser.new(webparsing_config)
-        parser.start_parse
-  
         configurator = Configurator.new
   
         configurator.configure(
@@ -32,12 +29,7 @@ module DomRiaParserGrigoriakMelenkoMorar
           run_save_to_sqlite: 1
         )
   
-        # rental_item = RentalItem.generate_fake
-        # LoggerManager.log_processed_file("Створено об'єкт RentalItem: #{rental_item.info}")
-        # puts rental_item.info
-  
-        # cart = Cart.new(config_data['output_dir'])
-        # cart.generate_test_items(10)
+        cart = Cart.new(config_data['output_dir'])
   
         # puts "Items with price > 10000:"
         # cart.select { |item| item.price > 10000 }.each { |item| puts item.info }
@@ -51,7 +43,7 @@ module DomRiaParserGrigoriakMelenkoMorar
         # puts "\nSaving items to files..."
         # cart.save_to_file
   
-        # configurator.run_actions(cart)
+        configurator.run_actions(cart, webparsing_config)
       end
     end
   end

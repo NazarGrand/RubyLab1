@@ -10,9 +10,6 @@ class SimpleWebsiteParser
   end
 
   def start_parse
-    puts "Parsing website..."
-    puts "Configuration: #{@config}"
-
     start_page = @config['start_page']
     product_selector = @config['product_selector']
     product_name_selector = @config['product_name_selector']
@@ -23,13 +20,10 @@ class SimpleWebsiteParser
     product_location_selector = @config['product_location_selector']
     
 
-    # Open the webpage using Nokogiri and OpenURI
     doc = Nokogiri::HTML(URI.open(start_page))
-
-    # Find products (adjust according to your needs)
     products = doc.css(product_selector)
+    rental_items = []
 
-    # Parse product information
     products.each do |product|
       product_name = product.at_css(product_name_selector).text.strip rescue nil
       product_price = product.at_css(product_price_selector).text.strip rescue nil
@@ -38,23 +32,17 @@ class SimpleWebsiteParser
       product_rooms = product.at_css(product_rooms_selector).text.strip rescue nil
       product_location = product.at_css(product_location_selector).text.strip rescue nil
 
-      # Log the parsed product details
-      @logger.info("Parsed product: #{product_name}")
-      @logger.info("Price: #{product_price}")
-      @logger.info("Description: #{product_description}")
-      @logger.info("Image URL: #{product_image}")
-      @logger.info("Rooms/Area: #{product_rooms}")
-      @logger.info("Location: #{product_location}")
-      @logger.info("------------------------------------------")
+      rental_item = RentalItem.new(
+        price: product_price,
+        address: product_name,
+        square_meters: "N/A",
+        rooms: product_rooms,
+        image_path: "N/A"
+      )
 
-      # Optionally print to the console
-      puts "Name: #{product_name}"
-      puts "Price: #{product_price}"
-      puts "Description: #{product_description}"
-      puts "Image URL: #{product_image}"
-      puts "Rooms/Area: #{product_rooms}"
-      puts "Location: #{product_location}"
-      puts "------------------------------------------"
+      rental_items << rental_item
     end
+
+    return rental_items
   end
 end

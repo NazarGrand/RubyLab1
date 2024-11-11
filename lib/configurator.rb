@@ -26,7 +26,12 @@ class Configurator
       @config.keys
     end
   
-    def run_actions(cart)
+    def run_actions(cart, webparsing_config)
+      if @config[:run_website_parser] == 1
+        cart.start_parsing(webparsing_config)
+      end
+      puts "\nSaving items to files..."
+      
       if @config[:run_save_to_csv] == 1
         cart.save_to_csv
       end
