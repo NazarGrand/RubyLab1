@@ -1,3 +1,5 @@
+require_relative './database_connector'
+
 class Configurator
     attr_reader :config
   
@@ -26,7 +28,7 @@ class Configurator
       @config.keys
     end
   
-    def run_actions(cart, webparsing_config)
+    def run_actions(cart, webparsing_config, mongodb_config)
       if @config[:run_website_parser] == 1
         cart.start_parsing(webparsing_config)
       end
@@ -41,11 +43,15 @@ class Configurator
       if @config[:run_save_to_yaml] == 1
         cart.save_to_yml
       end
-      if @config[:run_save_to_sqlite] == 1
-        puts "Збереження даних у базу даних SQLite..."
-      end
       if @config[:run_save_to_mongodb] == 1
-        puts "Збереження даних у базу даних MongoDB..."
+        db_connector = DatabaseConnector.new(mongodb_config)
+        db_connector.connect_to_database
+
+        cart.items.each do |item|
+          db_connector.save_rental_item(item)
+        end
+
+        db_connector.close_connection
       end
     end
   end
