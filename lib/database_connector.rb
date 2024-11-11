@@ -9,7 +9,6 @@ class DatabaseConnector
     end
   
     def connect_to_database
-       puts "Database config: #{@config.inspect}"
       case @config['database_type']
       when 'sqlite'
         connect_to_sqlite
