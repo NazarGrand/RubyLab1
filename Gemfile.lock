@@ -59,6 +59,7 @@ GEM
     public_suffix (6.0.1)
     racc (1.8.1)
     rainbow (3.1.1)
+    rake (13.1.0)
     regexp_parser (2.9.2)
     rubocop (1.68.0)
       json (~> 2.3)
@@ -99,6 +100,7 @@ DEPENDENCIES
   mongo
   nokogiri
   open-uri
+  rake
   rubocop
   rubyzip (~> 2.3)
   sqlite3
